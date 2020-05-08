@@ -30,13 +30,23 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain how to build stateful class components.
 
+*Stateful Class Components, as implied, are classes that contain state. More specifically, they generally have state that is initialized within the constructor function.*
+
 2. Describe the different phases of the component lifecycle.
+
+*The React Lifecycle can be broken up into three main sections. First, the mounting phase initializes the constuctor, renders, and runs cDM (on top of other methods not really discussed in class including getDerivedStateFromProps). The next phase is the Updating phase. Here we mostly focused on the rendering and componentDidUpdate. Lastly, there is the Unmounting phase, which consists of componentWillUnmount.*
 
 3. Demonstrate an understanding of class component lifecycle methods.
 
+*As stated above, there are several methods used within the React Lifecycle. These are used to tell our code when to initialize, update, unmount, render, etc. A clear example would be the use of componentWillUnmount. It is often used to clean up leftover effects/state that would ultimately bog down the computer after storing multiple renders.*
+
 4. Define stateful logic.
 
+*As implied, stateful logic deals with any sort of code that utilizes state. More specifically, in terms of React Hooks, it is often state that can be used within different components.*
+
 5. Describe how to test a React component with React Testing Library.
+
+*Testing using React Testing Library is fairly straight forward. We have been using it to implement unit to unit testing which gives us a good gauge on what users will be using and hoping to mitigate bugs by extensive tests. It is first initialized with a test() which takes two arguments. The first is a semantic name for the test you are running and the second is an anonymous function where you will build the test.*
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 

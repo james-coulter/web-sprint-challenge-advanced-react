@@ -21,7 +21,7 @@ test("form shows success message on submit with form details", () => {
 
 //STRETCH: Shopping Cart Test
 
-test('plants are being displayed', () => {
+test('STRETCH - plants are being displayed', () => {
   async() => { const {getByText} = render(<ShoppingCart cart={plants} />) 
 
     const plantData = [
